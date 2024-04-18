@@ -1,13 +1,12 @@
 body {
-    background-color: white;
-    background-image: "fundo.png.png";
+    background-image: "fundo.png";
 }
 h1{
     color: hsla(231, 97%, 59%, 0.966);
     text-align:center;
-    font-size:large;
+    font-size:larger;
 }
 p{
     font-family: Arial;
-    font-size:small;
+    font-size:medium;
 }
