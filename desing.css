@@ -1,5 +1,5 @@
 body {
-    background-image:fundo.png;
+    background-image:url(fundo.png);
 }
 h1{
     color: hsla(231, 97%, 59%, 0.966);
