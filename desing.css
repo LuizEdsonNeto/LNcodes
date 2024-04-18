@@ -2,7 +2,10 @@ body {
     background-color: white;
 }
 h1{
-    color: rgb(68, 137, 241);
+    color: hsla(216, 98%, 57%, 0.966);
     text-align:center;
+
+}
+p{
     
 }
