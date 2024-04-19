@@ -48,7 +48,7 @@ h3{
 .githublogo {
     height: 300px;
     width: 168px;
-
+    filter: invert();
 }
 a {
     text-decoration: none;
