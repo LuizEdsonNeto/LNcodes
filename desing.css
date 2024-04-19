@@ -24,5 +24,9 @@ p{
     width: 70px;
     font-family: monospace;
     font-size: x-large;
-    
+
+}
+.logo {
+    height: 70px;
+    width: 70px;
 }
