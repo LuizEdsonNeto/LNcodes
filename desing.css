@@ -13,3 +13,7 @@ p{
     font-family: Arial;
     font-size:medium;
 }
+.logo {
+    height: 75px;
+    width: 75px;
+}
