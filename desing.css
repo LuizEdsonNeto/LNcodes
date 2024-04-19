@@ -2,10 +2,10 @@ body {
     background-color: rgb(43, 43, 43);
     color: white;
     font-family: monospace;
+}
     .superior {
         background-color: #39bbf8;
         margin-bottom: 15px;
-    }
     }
     h1{
     display: flex;
