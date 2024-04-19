@@ -1,7 +1,7 @@
 body {
     .superior {
         background-color: #39bbf8;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 }
 h1{
@@ -20,8 +20,8 @@ p{
     align-items: center;
     max-width: 100px;
     margin: auto;
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
     font-family: monospace;
     font-size: x-large;
 
