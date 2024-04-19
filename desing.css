@@ -1,5 +1,8 @@
 body {
-    background-image:url(fundo.png);
+    .superior {
+        background-color: #39bbf8;
+        margin-bottom: 5px;
+    }
 }
 h1{
     color: hsla(231, 97%, 59%, 0.966);
