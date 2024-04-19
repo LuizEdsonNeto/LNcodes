@@ -46,8 +46,8 @@ h3{
     padding: 5px 10px;
 }
 .githublogo {
-    height: 300px;
-    width: 168px;
+    height: 168px;
+    width: 300px;
     filter: invert();
 }
 a {
