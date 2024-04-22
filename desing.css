@@ -60,3 +60,23 @@ picture {
     display: flex;
     justify-content: center;
 }
+.tutorial1{
+    width: 499px; 
+    height: 178px;
+}
+.tutorial2{
+    width:907px;
+    height:610px;
+} 
+.tutorial3{
+    width:659px; 
+    height: 317.5empx;
+}
+.tutorial4{
+    width:1279px;
+    height:479px;
+}
+.tutorial5{
+    width:931px;
+    height:596px;
+}
