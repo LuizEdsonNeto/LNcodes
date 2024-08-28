@@ -18,6 +18,8 @@ function login() {
     } else {
         messageElement.textContent = 'Usuário ou senha incorretos.';
         messageElement.style.color = 'red';
+        window.location.href = 'index.html';
+
     }
 }
 function register() {
