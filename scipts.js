@@ -32,11 +32,22 @@ function register() {
     } else if (username && password) {
         users[username] = password;
         messageElement.textContent = 'Cadastro realizado com sucesso!';
-        messageElement.style.color = 'blue';
+        messageElement.style.color = 'green';
         showLoginForm();
     } else {
         messageElement.textContent = 'Preencha todos os campos.';
         messageElement.style.color = 'red';
     }
 }
-
+function updateUsernameDisplay() {
+    const usernameDisplay = document.getElementById('username-display');
+    const loggedInUser = localStorage.getItem('loggedInUser');
+    if (loggedInUser) {
+        usernameDisplay.textContent = `Bem-vindo, ${loggedInUser}`;
+    } else {
+        usernameDisplay.textContent = '';
+    }
+}
+window.onload = function() {
+    updateUsernameDisplay();
+};
