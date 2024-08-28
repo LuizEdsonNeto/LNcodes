@@ -32,7 +32,7 @@ function register() {
     } else if (username && password) {
         users[username] = password;
         messageElement.textContent = 'Cadastro realizado com sucesso!';
-        messageElement.style.color = 'green';
+        messageElement.style.color = 'blue';
         showLoginForm();
     } else {
         messageElement.textContent = 'Preencha todos os campos.';
