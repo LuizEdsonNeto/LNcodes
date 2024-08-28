@@ -7,25 +7,33 @@ body {
         background-color: #39bbf8;
         margin-bottom: 15px;
     }
-    .login-container {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .form-container {
         background: #fff;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
     }
     
-    .login-container h2 {
+    .form-container h2 {
         margin-top: 0;
     }
     
-    .login-container input {
+    .form-container input {
         margin-bottom: 10px;
         padding: 10px;
         width: 100%;
         box-sizing: border-box;
     }
     
-    .login-container button {
+    .form-container button {
         padding: 10px;
         width: 100%;
         background-color: #007BFF;
@@ -35,7 +43,7 @@ body {
         cursor: pointer;
     }
     
-    .login-container button:hover {
+    .form-container button:hover {
         background-color: #0056b3;
     }
     
