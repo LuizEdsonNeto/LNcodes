@@ -3,6 +3,7 @@ function showLoginForm() {
     document.getElementById('login-form').style.display = 'block';
     document.getElementById('register-form').style.display = 'none';
 }
+
 function showRegisterForm() {
     document.getElementById('login-form').style.display = 'none';
     document.getElementById('register-form').style.display = 'block';
@@ -15,7 +16,9 @@ function login() {
     if (users[username] && users[username] === password) {
         messageElement.textContent = 'Login bem-sucedido!';
         messageElement.style.color = 'green';
-        window.location.href = 'index.html';
+        localStorage.setItem('loggedInUser', username);
+        window.location.href = 'pagina_principal.html';
+        updateUsernameDisplay();
     } else {
         messageElement.textContent = 'Usuário ou senha incorretos.';
         messageElement.style.color = 'red';
@@ -25,7 +28,6 @@ function register() {
     const username = document.getElementById('register-username').value;
     const password = document.getElementById('register-password').value;
     const messageElement = document.getElementById('register-message');
-
     if (username in users) {
         messageElement.textContent = 'Usuário já cadastrado.';
         messageElement.style.color = 'red';
