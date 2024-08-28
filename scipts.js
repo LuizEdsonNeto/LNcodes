@@ -15,11 +15,10 @@ function login() {
     if (users[username] && users[username] === password) {
         messageElement.textContent = 'Login bem-sucedido!';
         messageElement.style.color = 'green';
+        window.location.href = 'index.html';
     } else {
         messageElement.textContent = 'Usuário ou senha incorretos.';
         messageElement.style.color = 'red';
-        window.location.href = 'index.html';
-
     }
 }
 function register() {
