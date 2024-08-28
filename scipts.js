@@ -17,7 +17,7 @@ function login() {
         messageElement.textContent = 'Login bem-sucedido!';
         messageElement.style.color = 'green';
         localStorage.setItem('loggedInUser', username);
-        window.location.href = 'pagina_principal.html';
+        window.location.href = 'index.html';
         updateUsernameDisplay();
     } else {
         messageElement.textContent = 'Usuário ou senha incorretos.';
