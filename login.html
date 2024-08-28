@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html lang=pt-br>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>login</title>
-<link rel="stylesheet" href="desing.css">
-<link rel="shortcut icon" href="logo.png" type="image/x-icon">
-<script src="scipts.js"></script>
+    <title>Login e Cadastro</title>
+    <link rel="stylesheet" href="desing.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
-    <nav class="superior">
-        <header class="titulo">
-            <a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
-            <h1>code</h1>
-        </header>
-    </nav>
-<div class="login-container">
-    <h2>Login</h2>
-    <input type="text" id="username" placeholder="Usuário" />
-    <input type="password" id="password" placeholder="Senha" />
-    <button onclick="login()">Entrar</button>
-    <div id="message" class="message"></div>
-</div>
-<script src="scipts.js"></script>
+    <div class="container">
+        <!-- Formulário de Login -->
+        <div class="form-container" id="login-form">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Usuário" />
+            <input type="password" id="login-password" placeholder="Senha" />
+            <button onclick="login()">Entrar</button>
+            <div id="login-message" class="message"></div>
+            <p><a href="#" onclick="showRegisterForm()">Cadastrar-se</a></p>
+        </div>
+
+        <!-- Formulário de Cadastro -->
+        <div class="form-container" id="register-form" style="display: none;">
+            <h2>Cadastro</h2>
+            <input type="text" id="register-username" placeholder="Usuário" />
+            <input type="password" id="register-password" placeholder="Senha" />
+            <button onclick="register()">Cadastrar</button>
+            <div id="register-message" class="message"></div>
+            <p><a href="#" onclick="showLoginForm()">Já tem uma conta? Entrar</a></p>
+        </div>
+    </div>
+    <script src="scipts.js"></script>
+</body>
+</html>
