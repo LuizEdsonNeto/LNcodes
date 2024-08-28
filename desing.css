@@ -16,6 +16,52 @@ p{
     font-family: Arial;
     font-size:medium;
 }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-top: 0;
+}
+
+.login-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    padding: 10px;
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 10px;
+    color: red;
+}
 .titulo {
     display: flex;
     flex-direction: row;
