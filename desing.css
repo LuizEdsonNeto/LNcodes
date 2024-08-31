@@ -9,7 +9,8 @@ body {
         position: fixed;
         width: 97%;
         top: 0;
-        left: 0
+        left: 0;
+        z-index: 10000;
     }
     /* corrigir local depois */
     .header {
@@ -121,6 +122,7 @@ picture {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    z-index: 1;
 }
 .tutorial1{
     width: 499px; 
