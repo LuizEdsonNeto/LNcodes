@@ -119,6 +119,7 @@ a {
 }
 picture {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .tutorial1{
