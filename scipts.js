@@ -47,6 +47,7 @@ function updateUsernameDisplay() {
     if (loggedInUser) {
         usernameDisplay.textContent = `Bem-vindo, ${loggedInUser}`;
     } else {
+        usernameDisplay.textContent = `Entrar`;
         linkEntrar.href = 'login.html'; 
         linkEntrar.textContent = 'Entrar';
         userInfoDiv.appendChild(linkEntrar);
