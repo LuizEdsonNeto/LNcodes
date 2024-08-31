@@ -123,6 +123,13 @@ picture {
     flex-direction: row;
     justify-content: center;
     z-index: 1;
+    max-width: 100%;
+    height: auto; 
+}
+@media (max-width: 768px) {
+    picture {
+        width: 100%;
+    }
 }
 .tutorial1{
     width: 499px; 
@@ -151,4 +158,21 @@ picture {
 .tutorial8{
     width:650px;
     height:50px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Ajusta o tamanho da fonte para dispositivos menores */
+    }
+
+    h1 {
+        font-size: 24px; /* Ajusta o tamanho do título principal */
+    }
+
+    h2 {
+        font-size: 20px; /* Ajusta o tamanho do título secundário */
+    }
+
+    p {
+        font-size: 14px; /* Ajusta o tamanho do texto do parágrafo */
+    }
 }
