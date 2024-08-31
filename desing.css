@@ -128,6 +128,10 @@ picture {
 }
 @media (max-width: 768px) {
     picture {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 1;
         width: 100%;
     }
 }
@@ -159,13 +163,16 @@ picture {
     width:650px;
     height:50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 100%) {
     body {
-        font-size: 16px; /* Ajusta o tamanho da fonte para dispositivos menores */
+        font-size: 16px; 
     }
 
     h1 {
         font-size: 24px; /* Ajusta o tamanho do título principal */
+        display: flex;
+        flex-direction: row;
+        justify-content: center
     }
 
     h2 {
@@ -173,6 +180,7 @@ picture {
     }
 
     p {
-        font-size: 14px; /* Ajusta o tamanho do texto do parágrafo */
+        font-size: 14px;
+        font-family: Arial;
     }
 }
