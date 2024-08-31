@@ -6,10 +6,14 @@ body {
     .superior {
         background-color: #39bbf8;
         margin-bottom: 15px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0
     }
     /* corrigir local depois */
     .header {
-        background-color: #007BFF;
+        background-color: #39bbf8;
         color: #fff;
         padding: 10px;
         position: fixed;
@@ -49,7 +53,7 @@ body {
     .form-container button {
         padding: 10px;
         width: 100%;
-        background-color: #007BFF;
+        background-color: #39bbf8;
         color: #fff;
         border: none;
         border-radius: 5px;
@@ -57,7 +61,7 @@ body {
     }
     
     .form-container button:hover {
-        background-color: #0056b3;
+        background-color: #39bbf8;
     }
     
     .message {
