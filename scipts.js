@@ -47,10 +47,10 @@ function updateUsernameDisplay() {
     if (loggedInUser) {
         usernameDisplay.textContent = `Bem-vindo, ${loggedInUser}`;
     } else {
-        usernameDisplay.textContent = `Entrar`;
+        const linkEntrar = document.createElement('a');
         linkEntrar.href = 'login.html'; 
         linkEntrar.textContent = 'Entrar';
-        userInfoDiv.appendChild(linkEntrar);
+        usernameDisplay.appendChild(linkEntrar);
     }
 }
 window.onload = function() {
