@@ -125,6 +125,7 @@ picture {
     z-index: 1;
     max-width: 100%;
     height: auto; 
+    width: auto;
 }
 @media (max-width: 768px) {
     picture {
@@ -133,6 +134,44 @@ picture {
         justify-content: center;
         z-index: 1;
         width: 100%;
+    }
+    .tutorial1{
+        width: 497px; 
+        height: 176px;
+        justify-content: center
+    }
+    .tutorial2{
+        width:453.5px;
+        height:305px;
+        justify-content: center
+    } 
+    .tutorial3{
+        width:659px; 
+        height: 317.5px;
+        justify-content: center
+    }
+    .tutorial4{
+        width:639.5px;
+        height:239.5px;
+        justify-content: center
+    }
+    .tutorial5{
+        width:465.5px;
+        height:248px;
+        justify-content: center
+    }
+    .tutorial6{
+        width:921px;
+        height:173px;
+        justify-content: center
+    }
+    .tutorial7{
+        width:652.5px;
+        height:94px;
+    }
+    .tutorial8{
+        width:650px;
+        height:50px;
     }
 }
 .tutorial1{
