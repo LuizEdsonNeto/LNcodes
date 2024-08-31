@@ -51,6 +51,7 @@ function updateUsernameDisplay() {
         linkEntrar.href = 'login.html'; 
         linkEntrar.textContent = 'Entrar';
         usernameDisplay.appendChild(linkEntrar);
+        window.location.href = 'login.html';
     }
 }
 window.onload = function() {

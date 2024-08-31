@@ -113,8 +113,8 @@ h3{
     filter: invert();
 }
 a {
-    text-decoration: none;
-    color:  #39bbf8;
+    text-decoration: underline;
+    color:  #ffffff;
     font-weight: bold;
     padding: 5px 10px;
 }
